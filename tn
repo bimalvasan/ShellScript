@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Simple note-taking script
+# Author Bimal
+echo $1 >> notes.txt
