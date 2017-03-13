@@ -1,6 +1,20 @@
 # ShellScript
 
- - type Command
+- Linux programmers Manual
+```sh
+    man read
+```
+- Miscellaneous Information Manual
+```sh
+    man builtins
+```
+- help
+```sh
+    help
+    help read
+```
+
+- type Command
 ```sh
     type <script name>
     Eg: type ls
@@ -20,9 +34,16 @@ Don't use whitespace around =
 ```
 If the value consists of multiple words, it can be seperated by spaces and use quotes.
 
-    - To retrive the value
-    Prefix with $
-    ```sh
-    echo $x
-    ```
-    - Bash variables have no type
+- To retrive the value
+Prefix with $
+    
+```sh
+echo $x
+```
+
+- Bash variables have no type
+    - Variable names should be letters, numbers and underscore
+    - First char should be a letter or underscore
+    - Variable names are case-sensitive
+    - Best practice -use lowercase
+

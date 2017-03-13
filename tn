@@ -2,4 +2,8 @@
 
 # Simple note-taking script
 # Author Bimal
-echo $(date): $* >> notes.txt
+
+# Ask user for input
+read -p "Your note: " note
+echo $(date): $note >> notes.txt
+echo Note saved: $note
